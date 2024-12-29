@@ -42,55 +42,6 @@ We hypothesize that a regression analysis will reveal that among aggregate consu
 
 ## Data overview
 
-Dataset #1
-
-Percent Change, Daily, Seasonally Adjusted, Vintage: Current 2014-11-13 to 2024-11-12 (2024-11-12)
-
-Dataset Name: FRED Economic Data St Louis Fed S&P 500
-
-Link to the dataset: https://fred.stlouisfed.org/graph/?g=lln 
-
-https://fred.stlouisfed.org/seriesBeta/SP500 
-
-Number of observations: 2610
-
-Number of variables: 2
-
-
-Dataset #2 
-
-Dataset Name:FRED Economic Data St Louis Fed Unemployment Rate
-
-Link to the dataset:https://fred.stlouisfed.org/seriesBeta/UNRATE 
-
-Number of observations: 109
-
-Number of variables:2
-
-
-Dataset #3
-
-Dataset Name: FRED Economic Data St Louis Fed Aggregate Consumption Rate
-
-Link to the dataset: https://fred.stlouisfed.org/series/PCECA  
-
-Number of observations: 42
-
-Number of variables: 4
-
-
-Dataset #4
-
-Dataset Name: Core CPI seasonally adjusted 1995 - 2024
-
-Link to dataset: https://datacatalog.worldbank.org/search/dataset/0037798/Global-Economic-Monitor
-
-Number of observations: 29
-
-Number of variables: 57
-
-
-
 Dataset #1: 
 FRED Economic Data - S&P 500 Percent Change
 This dataset contains daily percentage changes in the S&P 500 index over a ten-year period, from November 13, 2014, to November 12, 2024, with 2,610 observations. The primary variable, "Percent Change," reflects the daily price movement of the S&P 500 and has a float data type, measured as a percentage and not seasonally adjusted, representing fluctuations in the stock market. This variable is crucial for assessing short-term market volatility and understanding trends in investor sentiment and economic conditions. Data wrangling steps will include aggregating the percent change figures so that it matches our annual analysis, handle and check for any missing data and converting the time column to a date time object. Also our data includes dates beyond necessary for our analysis so we will filter for the necessary years.
@@ -204,7 +155,6 @@ The **PCE** column shows the monthly percentage changes in Personal Consumption 
   frameborder="0"
 ></iframe>
     
-
 
 **Daily_Return vs UNRATE**: The plot indicates some variability in daily returns as unemployment changes, but there is no strong visible pattern. While most points are concentrated around lower unemployment rates (3–6%), extreme outliers in UNRATE correspond to large positive or negative market movements. This suggests that changes in unemployment may be significant predictors during periods of economic stress but have limited predictive power during stable times.
 
