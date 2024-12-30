@@ -533,5 +533,5 @@ Ethan:
 ## APPENDIX
 
 ## Pairwise Scatter Plot Analysis ##
-![Pariwise-Scatter](assets/Pariwise-Scatter.png")
+![Pariwise-Scatter](assets/Pariwise-Scatter.png)
 
