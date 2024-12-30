@@ -119,13 +119,7 @@ The **PCE** column shows the monthly percentage changes in Personal Consumption 
 ## Box Plot Analysis ##
 
 
-<iframe
-  src="assets/box-plot-analysis.png"
-  width="800"
-  height="600"
-  frameborder="0"
-></iframe>
-    
+![Box Plot Analysis](assets/box-plot-analysis.png)
 
 
 **Daily_Return**: The variability in daily stock returns, as shown by the wide interquartile range (IQR) and the presence of extreme outliers, suggests that predicting returns is challenging due to frequent and significant market swings. These outliers likely represent major market events, such as financial crises or sudden recoveries, which are difficult to forecast with conventional models.
@@ -146,15 +140,13 @@ The **PCE** column shows the monthly percentage changes in Personal Consumption 
 ></iframe>
     
 **Daily_Return vs CORE CPI**: The scatter plot shows no clear linear relationship between stock returns and core inflation. Most points are clustered within a narrow range of CORE CPI values (110 to 140) and daily returns between -10% and +10%. This suggests that core inflation alone may not have a strong direct impact on daily market returns but could play a role indirectly or during extreme macroeconomic conditions.
-
     
-<iframe
-  src="assets/scatter-plot-daily-return-vs-UnRate.png"
+<img
+  src="assets/scatter-plot-daily-return-vs-Unrate.png"
+  alt="Scatter Plot: Daily_Return vs UNRATE"
   width="800"
   height="600"
-  frameborder="0"
-></iframe>
-    
+/>
 
 **Daily_Return vs UNRATE**: The plot indicates some variability in daily returns as unemployment changes, but there is no strong visible pattern. While most points are concentrated around lower unemployment rates (3–6%), extreme outliers in UNRATE correspond to large positive or negative market movements. This suggests that changes in unemployment may be significant predictors during periods of economic stress but have limited predictive power during stable times.
 
